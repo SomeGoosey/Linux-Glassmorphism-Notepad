@@ -2,7 +2,9 @@ THIS IS VIBE CODED WITH OPENCODE
 
 # Linux-Glassmorphism-Notepad
 A notepad in glassmorphism style for linux, requires kde plasma. 
-Compiled with clang++ -O0 -Wno-deprecated-declarations notepad.cpp -o notepad $(pkg-config --cflags --libs gtk+-3.0) -lX11
+Compiled with command: 
+
+clang++ -O0 -Wno-deprecated-declarations notepad.cpp -o notepad $(pkg-config --cflags --libs gtk+-3.0) -lX11
 
 Dependencies (runtime):
 
